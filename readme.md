@@ -6,6 +6,9 @@ Code challenge for a developer position.
 - `Tailwind`
 - `Vuetify`
 
+### Deploy
+ -  defsafe-developers-test-nine.vercel.app 
+
 ## Instructions
 Clone this repo:
 - ` git clone https://github.com/bergsantana/defsafe-developers-test.git`
