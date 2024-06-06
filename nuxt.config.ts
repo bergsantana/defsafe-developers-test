@@ -5,7 +5,11 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss', 
     "vuetify-nuxt-module", 
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
+    ["@pinia/nuxt", {
+      autoImports: ['defineStore', 'acceptHMRUpdate']
+    }],
+  
   ], 
   css: ['~/assets/css/tailwind.css'],
   devtools: { enabled: true },
@@ -17,7 +21,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Jost: '100...700',
+      Jost: '100',
     }
   }
 

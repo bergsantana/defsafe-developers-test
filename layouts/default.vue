@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <header class="bg-dark-gray h-16">
+    <div class="  h-screen">
+        <header class="flex flex-col justify-center items-center text-2xl   bg-dark-gray h-16  ">
             <h1 class="text-beige">THE DEFSAFE CAT FACTS PAGE</h1>
         </header>
-        <div>
+        <div class="h-full">
             <slot />
         </div>
     </div>
