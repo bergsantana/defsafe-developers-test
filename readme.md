@@ -5,7 +5,7 @@ Code challenge for a developer position.
 - `Nuxt.js 3 / Vue`
 - `Tailwind`
 - `Vuetify`
-- 
+
 ## Instructions
 Clone this repo:
 - ` git clone https://github.com/bergsantana/defsafe-developers-test.git`
