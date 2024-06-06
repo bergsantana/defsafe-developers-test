@@ -1,3 +1,47 @@
+# Desafio Desenvolvedor 
+Code challenge for a developer position.
+## Techs
+### Front
+- `Nuxt.js 3 / Vue`
+- `Tailwind`
+- `Vuetify`
+- 
+## Instructions
+Clone this repo:
+- ` git clone https://github.com/bergsantana/defsafe-developers-test.git`
+ 
+From the root folder run:
+- `npm install`
+- `npm run dev -- -o`
+
+
+## Demo
+### Front-End Desktop
+![img](https://github.com/bergsantana/defsafe-developers-test/blob/master/public/images/def-safe-desktop.gif?raw=true)
+###
+###
+### Front-End Mobile
+![img](https://github.com/bergsantana/defsafe-developers-test/blob/master/public/images/def-safe-mobile.gif?raw=true)
+
+
+## Tasks
+### Main tasks
+- [x] Delivering the test
+- [x] Replicate the screen design using Tailwind
+- [x] Correctly calling the API and returning/displaying the data
+
+#### Bonus Points:
+
+- [x] Points: Make the website responsive
+- [x] Points: Make the API call from the server side using the /server folder
+- [x] Points: Fetch many facts in only one API call and cache it so that all button clicks after the first one load from the cache.
+- [x] Points: Use Pinia as a state manager
+- [x] Points: Add a fade out/in effect for each cat fact refresh
+ 
+
+# Proposed test 
+
+
 # The Cat Facts Test
 
 You've been selected to create the website of the prestigious institution "The Defsafe Cat Facts". These are the requirements of the website:
