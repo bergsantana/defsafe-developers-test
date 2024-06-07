@@ -1,9 +1,9 @@
 <template>
     <div class="  h-screen">
-        <header class="flex flex-col justify-center items-center text-2xl   bg-dark-gray h-16  ">
+        <header class=" h-[10vh] flex flex-col justify-center items-center text-2xl  lg:text-4xl bg-dark-gray  ">
             <h1 class="text-beige">THE DEFSAFE CAT FACTS PAGE</h1>
         </header>
-        <div class="main-container h-full">
+        <div class="main-container ">
             <slot />
         </div>
     </div>
@@ -11,6 +11,8 @@
 
 <style>
 .main-container{
-    overflow: scroll;
+    height: 90vh  ;
+    
+    
 }
 </style>

@@ -54,9 +54,9 @@ const updateFact = async () => catStore.setCatFact(await getCatFact())
 
 <template>
         <div class="p-4 lg:w-1/3 lg:px-20 lg:flex flex-col justify-center">
-            <p class="text-dark-gray text-3xl lg:text-4xl lg:mb-12 font-medium">CAT FACT:</p> 
+            <p class="text-dark-gray text-3xl lg:text-4xl lg:mb-12  font-medium">CAT FACT:</p> 
             <p :class="{
-                ['lg:my-16 mt-4 text-light-gray lg:text-3xl'] : true, 
+                ['lg:my-16 mt-4 text-light-gray lg:text-3xl  lg:max-h-[50vh]    factbox'] : true, 
                 ['fetching'] : fetching, ['fetched'] : true }">
                 {{ catFact.fact  }}
             </p>
@@ -67,5 +67,16 @@ const updateFact = async () => catStore.setCatFact(await getCatFact())
 </template>
 
 <style >
+.factbox{
+ 
+    overflow-y: scroll;
+    scrollbar-width: none;
+ 
+
+}
+ 
+.factbox::-webkit-scrollbar{
+    display: none;
+ }
 
 </style>
