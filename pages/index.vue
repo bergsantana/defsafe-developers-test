@@ -55,20 +55,28 @@
 <template>
     <div class="bg-light-brown h-full lg:flex ">
         <Fact />
-        
-        <div class="lg:flex lg:h-5/6 lg:self-center justify-center items-center  ">
-            <div class="flex justify-center items-center lg:h-full lg:w-full  mb-2 ">
-                <img class="rounded-xl h-80 lg:h-full w-auto lg:w-full" src="/images/kitty1.webp" alt="kitty-image-1" />
+
+        <div class="lg:flex lg:h-5/6 lg:self-center justify-center items-center  overflow-hidden">
+            <div class="flex justify-center items-center lg:h-full lg:w-full  mb-2 lg:p-1">
+                <img class="rounded-xl h-80 lg:h-full  w-auto lg:w-full" src="/images/kitty1.webp" alt="kitty-image-1" />
             </div>
             <div class="flex lg:flex-col justify-center gap-4  lg:gap-6 mt-0 lg:mt-0  lg:h-full lg:w-7/12 lg:pl-8">
-                <img class="w-40 lg:w-96 rounded-xl" src="/images/kitty2.webp" alt="kitty-image-2" />
-                <img class="w-40 lg:w-96 rounded-xl"  src="/images/kitty3.webp" alt="kitty-image-3" />
+                <img class="w-40 lg:w-72 rounded-xl" src="/images/kitty2.webp" alt="kitty-image-2" />
+                <img class="w-40 lg:w-72 rounded-xl"  src="/images/kitty3.webp" alt="kitty-image-3" />
             </div>
         </div>
     </div>
 </template>
 
 <style >
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
 .fetched {
     transition: all 0.4s;
 }
@@ -77,4 +85,6 @@
     opacity: 0;
     filter: blur(1rem)
 }
+
+
 </style>
