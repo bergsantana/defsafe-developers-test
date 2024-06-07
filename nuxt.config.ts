@@ -21,7 +21,10 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Jost: '100',
+      Jost: {
+        ital:'200..700',
+        wght: '100..700'
+      },
     }
   }
 
