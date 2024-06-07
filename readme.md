@@ -35,12 +35,16 @@ From the root folder run:
 
 #### Bonus Points:
 
-- [x] Points: Make the website responsive
-- [x] Points: Make the API call from the server side using the /server folder
-- [x] Points: Fetch many facts in only one API call and cache it so that all button clicks after the first one load from the cache.
-- [x] Points: Use Pinia as a state manager
-- [x] Points: Add a fade out/in effect for each cat fact refresh
- 
+- [x] Make the website responsive
+- [x] Make the API call from the server side using the /server folder
+- [x] Fetch many facts in only one API call and cache it so that all button clicks after the first one load from the cache.
+- [x] Use Pinia as a state manager
+- [x] Add a fade out/in effect for each cat fact refresh
+- [x] Deliver the solution including Unit Testing
+
+
+![img](https://github.com/bergsantana/defsafe-developers-test/blob/master/public/images/test.jpg?raw=true)
+
 
 # Proposed test 
 
